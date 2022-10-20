@@ -1,6 +1,0 @@
---cpu Cortex-M3 -g --apcs=interwork 
--I"C:\Users\lenovo\Desktop\协助毕业设计\51黑论坛_6自由度机械臂 手动按键控制\6自由度机械臂 手动按键控制\User\RTE\_Smart_car"
--IE:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
--IE:\Keil_v5\ARM\CMSIS\Include
---pd "__UVISION_VERSION SETA 522" --pd "STM32F10X_MD SETA 1"
---list .\listings\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d "..\Core\startup_stm32f10x_md.s"
